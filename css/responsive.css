@@ -1,0 +1,32 @@
+/* For mobile devices <540px */
+@media (max-width: 540px){
+    /* Top note text */
+    div h4 {
+        font-size: 12px;
+    }
+    /* header text */
+    .header h1 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .header p {
+        font-size: 15px;
+        font-weight: 200;
+    }
+    /* Navigation menu */
+    .menu a{
+        flex: 100%;
+    }
+    /* main area */
+    .right_side {
+        flex: 100%;
+    }
+    .left_side {
+        flex: 100%;
+    }
+    /* Footer */
+    .footer {
+        padding: 20px;
+        font-size: 18px;
+    }
+}
